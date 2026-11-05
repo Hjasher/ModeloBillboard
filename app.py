@@ -9,7 +9,7 @@ from openai import OpenAI
 NOMBRE = 'Su Nombre'
 
 st.set_page_config(page_title='Billboard Top 1', layout='centered')
-st.title(f'Predicción de Top 1 en Billboard-{NOMBRE}-ISC-Campus Comayagua')
+st.title(f'Predicción de Top 1 en Billboard-Hjasher Medina-ISC-Campus Comayagua')
 
 
 @st.cache_resource
