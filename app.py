@@ -3,10 +3,7 @@ import pandas as pd
 import streamlit as st
 from openai import OpenAI
 
-# ------------------------------------------------------------------
-# Cambie aquí su nombre, aparece en el título de la app
-# ------------------------------------------------------------------
-NOMBRE = 'Su Nombre'
+NOMBRE = 'Hjasher Medina'
 
 st.set_page_config(page_title='Billboard Top 1', layout='centered')
 st.title(f'Predicción de Top 1 en Billboard-{NOMBRE}-ISC-Campus Comayagua')
@@ -72,7 +69,7 @@ if enviar:
         'durationSeg': durationSeg
     }])
 
-    # Mismo procesamiento del notebook, One-Hot Encoding y mismas columnas del entrenamiento
+
     cancion_dummies = pd.get_dummies(cancion)
     cancion_procesada = cancion_dummies.reindex(
         columns=metadata['columnas_entrenamiento'],
