@@ -6,10 +6,10 @@ from openai import OpenAI
 # ------------------------------------------------------------------
 # Cambie aquí su nombre, aparece en el título de la app
 # ------------------------------------------------------------------
-NOMBRE = 'Su Nombre'
+NOMBRE = 'Hjasher Medina'
 
 st.set_page_config(page_title='Billboard Top 1', layout='centered')
-st.title(f'Predicción de Top 1 en Billboard-Hjasher Medina-ISC-Campus Comayagua')
+st.title(f'Predicción de Top 1 en Billboard-{Nombre}-ISC-Campus Comayagua')
 
 
 @st.cache_resource
